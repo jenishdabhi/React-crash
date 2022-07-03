@@ -9,6 +9,7 @@ export class Classclick extends Component {
       <div>
         <button onClick={this.clickHandler}>Clicked Me</button>
       </div>
+
     )
   }
 }
