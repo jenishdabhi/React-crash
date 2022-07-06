@@ -7,19 +7,23 @@ import "./App.css";
 // import Message from "./components/Message";
 import Funclick from "./components/Funclick";
 import Classclick from "./components/Classclick";
+import Counter from "./components/counter"
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <MyGreet name="job" heroName="batman"/>
+        {/* 
         <p>this is children props</p>
         <MyGreet name="bob" heroName="superman"/>
         <button>Action</button>
         <Welcome name="job" heroName="batman"/>
-        <Welcome name="boby" heroName="superman"/>
+        
         <Hello/> */}
         {/* <Message/> */}
+        {/* <Welcome name="boby" heroName="superman"/> */}
+        {/* <MyGreet name="job" heroName="batman"/> */}
+        <Counter/>
         <Funclick/>
         <Classclick/>
       </div>
