@@ -13,12 +13,15 @@ import ParentComponent from "./components/ParentComponent";
 import Usergreeting from "./components/Usergreeting";
 import NameList from "./components/NameList";
 import Stylesheet from "./components/Stylesheet";
+import Form from "./components/Form";
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Stylesheet primary={true}/>
+        <Form/>
+        {/* <Stylesheet primary={true}/> */}
         {/* <NameList/> */}
         {/* <ParentComponent/> */}
         {/* <Usergreeting/> */}
