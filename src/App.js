@@ -11,12 +11,17 @@ import Counter from "./components/counter";
 import EventBind from "./components/EventBind";
 import ParentComponent from "./components/ParentComponent";
 import Usergreeting from "./components/Usergreeting";
+import NameList from "./components/NameList";
+import Stylesheet from "./components/Stylesheet";
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ParentComponent/>
-        <Usergreeting/>
+        <Stylesheet primary={true}/>
+        {/* <NameList/> */}
+        {/* <ParentComponent/> */}
+        {/* <Usergreeting/> */}
         {/* <EventBind/> */}
         {/* 
         <p>this is children props</p>
