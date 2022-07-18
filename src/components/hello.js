@@ -10,6 +10,7 @@ const hello=()=>{
 
     //Withou JSX
 
-    return React.createElement('div',null,'Hello JSX')
+    return React.createElement('div',{id:'hello',className:'dummyclass'},
+    React.createElement('h1',null,'Hello JSX'))
 }
 export default hello
