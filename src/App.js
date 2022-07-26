@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./App.css";
-
 // import logo from './logo.svg';
 // import MyGreet from "./components/Greet";
 // import Welcome from "./components/Welcome";
@@ -21,16 +20,21 @@ import "./App.css";
 // import HookCounterTwo from "./components/HookCounterTwo";
 // import ClassCounterOne from "./components/ClassCounterOne";
 // import ClassMouse from "./components/ClassMouse";
-import HookMouse from "./components/HookMouse";
+// import HookMouse from "./components/HookMouse";
+// import MouseContainer from "./components/MouseContainer";
+import IntervalClassCounter from "./components/IntervalClassCounter";
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <HookMouse/>
-      {/* <ClassMouse/> */}
+        <IntervalClassCounter/>
+        {/* <MouseContainer/> */}
+        {/* <HookMouse /> */}
+        {/* <ClassMouse/> */}
         {/* <ClassCounterOne/> */}
-          {/* <HookCounterTwo/> */}
+        {/* <HookCounterTwo/> */}
         {/* <HookCounter/> */}
         {/* <ClassCounter/> */}
         {/* <LifeCycleA /> */}
