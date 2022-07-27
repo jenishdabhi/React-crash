@@ -25,12 +25,11 @@
 // import MouseContainer from "./components/MouseContainer";
 // import IntervalClassCounter from "./components/IntervalClassCounter";
 
-
 // class App extends Component {
 //   render() {
 //     return (
 //       <div className="App">
-        
+
 //         {/* <IntervalClassCounter/> */}
 //         {/* <MouseContainer/> */}
 //         {/* <HookMouse /> */}
@@ -61,17 +60,27 @@
 // }
 // export default App;
 
-
-import React from 'react'
+import React from "react";
 import "./App.css";
-import ComponentC from './hookscomponent/ComponentC';
+import ComponentC from "./hookscomponent/ComponentC";
+import CounterOne from "./hookscomponent/CounterOne";
+import CounterTwo from "./hookscomponent/CounterTwo";
+
+export const UserContext = React.createContext();
+export const ChannelContext = React.createContext();
 
 function App() {
   return (
     <div>
-      <ComponentC/>
+      <CounterTwo/>
+      {/* <CounterOne/> */}
+      {/* <UserContext.Provider value={"jenish"}>
+        <ChannelContext.Provider value={"Code"}>
+        <ComponentC />
+        </ChannelContext.Provider>
+      </UserContext.Provider> */}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
