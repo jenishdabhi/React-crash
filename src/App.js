@@ -1,5 +1,6 @@
-import React, { Component } from "react";
-import "./App.css";
+// import React, { Component } from "react";
+// import "./App.css";
+
 // import logo from './logo.svg';
 // import MyGreet from "./components/Greet";
 // import Welcome from "./components/Welcome";
@@ -22,44 +23,55 @@ import "./App.css";
 // import ClassMouse from "./components/ClassMouse";
 // import HookMouse from "./components/HookMouse";
 // import MouseContainer from "./components/MouseContainer";
-import IntervalClassCounter from "./components/IntervalClassCounter";
+// import IntervalClassCounter from "./components/IntervalClassCounter";
 
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <IntervalClassCounter/>
-        {/* <MouseContainer/> */}
-        {/* <HookMouse /> */}
-        {/* <ClassMouse/> */}
-        {/* <ClassCounterOne/> */}
-        {/* <HookCounterTwo/> */}
-        {/* <HookCounter/> */}
-        {/* <ClassCounter/> */}
-        {/* <LifeCycleA /> */}
-        {/* <Form/> */}
-        {/* <Stylesheet primary={true}/> */}
-        {/* <NameList/> */}
-        {/* <ParentComponent/> */}
-        {/* <Usergreeting/> */}
-        {/* <EventBind/> */}
-        {/* 
-        <p>this is children props</p>
-        <MyGreet name="bob" heroName="superman"/>
-        <button>Action</button>
-        <Welcome name="job" heroName="batman"/>
+// class App extends Component {
+//   render() {
+//     return (
+//       <div className="App">
         
-        <Hello/> */}
-        {/* <Message/> */}
-        {/* <Welcome name="boby" heroName="superman"/> */}
-        {/* <MyGreet name="job" heroName="batman"/> */}
-        {/* <Counter/> */}
-        {/* <Funclick/> */}
-        {/* <Classclick/> */}
-      </div>
-    );
-  }
+//         {/* <IntervalClassCounter/> */}
+//         {/* <MouseContainer/> */}
+//         {/* <HookMouse /> */}
+//         {/* <ClassMouse/> */}
+//         {/* <ClassCounterOne/> */}
+//         {/* <HookCounterTwo/> */}
+//         {/* <HookCounter/> */}
+//         {/* <ClassCounter/> */}
+//         {/* <LifeCycleA /> */}
+//         {/* <Form/> */}
+//         {/* <Stylesheet primary={true}/> */}
+//         {/* <NameList/> */}
+//         {/* <ParentComponent/> */}
+//         {/* <Usergreeting/> */}
+//         {/* <EventBind/> */}
+//         {/* <MyGreet/>
+//         <Welcome/>
+//         <Hello/> */}
+//         {/* <Message/> */}
+//         {/* <Welcome name="boby" heroName="superman"/> */}
+//         {/* <MyGreet name="job" heroName="batman"/> */}
+//         {/* <Counter/> */}
+//         {/* <Funclick/> */}
+//         {/* <Classclick/> */}
+//       </div>
+//     );
+//   }
+// }
+// export default App;
+
+
+import React from 'react'
+import "./App.css";
+import ComponentC from './hookscomponent/ComponentC';
+
+function App() {
+  return (
+    <div>
+      <ComponentC/>
+    </div>
+  )
 }
 
-export default App;
+export default App
